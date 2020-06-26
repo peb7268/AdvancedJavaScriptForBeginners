@@ -1,0 +1,12 @@
+{
+    "baseUrl": "http://racingapp.com",
+    "watchForFileChanges": true,
+    "fileServerFolder": "./public",
+    "integrationFolder": "tests/cypress/integration",
+    "fixturesFolder": "tests/cypress/fixtures",
+    "pluginsFile": "tests/cypress/plugins/index.js",
+    "supportFile": "tests/cypress/support/index.js",
+    "screenshotsFolder": "tests/cypress/screenshots",
+    "videosFolder": "tests/cypress/videos",
+    "defaultCommandTimeout": 10000
+}

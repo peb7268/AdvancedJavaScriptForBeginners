@@ -1,0 +1,8 @@
+
+$raceTime: 60 * 10;
+
+@for $i from 1 through $raceTime {
+    #track-wrapper .car[data-distance="#{$i}"]{
+        left: #{$i}px;
+    }
+}

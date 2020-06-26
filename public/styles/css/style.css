@@ -1,0 +1,1882 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+@import url("https://fonts.googleapis.com/css2?family=Bevan&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@200;300;400;600;700;800&display=swap");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/**
+font-family: 'Assistant', sans-serif;
+*/
+#track-wrapper .car[data-distance="1"] {
+  left: 1px; }
+
+#track-wrapper .car[data-distance="2"] {
+  left: 2px; }
+
+#track-wrapper .car[data-distance="3"] {
+  left: 3px; }
+
+#track-wrapper .car[data-distance="4"] {
+  left: 4px; }
+
+#track-wrapper .car[data-distance="5"] {
+  left: 5px; }
+
+#track-wrapper .car[data-distance="6"] {
+  left: 6px; }
+
+#track-wrapper .car[data-distance="7"] {
+  left: 7px; }
+
+#track-wrapper .car[data-distance="8"] {
+  left: 8px; }
+
+#track-wrapper .car[data-distance="9"] {
+  left: 9px; }
+
+#track-wrapper .car[data-distance="10"] {
+  left: 10px; }
+
+#track-wrapper .car[data-distance="11"] {
+  left: 11px; }
+
+#track-wrapper .car[data-distance="12"] {
+  left: 12px; }
+
+#track-wrapper .car[data-distance="13"] {
+  left: 13px; }
+
+#track-wrapper .car[data-distance="14"] {
+  left: 14px; }
+
+#track-wrapper .car[data-distance="15"] {
+  left: 15px; }
+
+#track-wrapper .car[data-distance="16"] {
+  left: 16px; }
+
+#track-wrapper .car[data-distance="17"] {
+  left: 17px; }
+
+#track-wrapper .car[data-distance="18"] {
+  left: 18px; }
+
+#track-wrapper .car[data-distance="19"] {
+  left: 19px; }
+
+#track-wrapper .car[data-distance="20"] {
+  left: 20px; }
+
+#track-wrapper .car[data-distance="21"] {
+  left: 21px; }
+
+#track-wrapper .car[data-distance="22"] {
+  left: 22px; }
+
+#track-wrapper .car[data-distance="23"] {
+  left: 23px; }
+
+#track-wrapper .car[data-distance="24"] {
+  left: 24px; }
+
+#track-wrapper .car[data-distance="25"] {
+  left: 25px; }
+
+#track-wrapper .car[data-distance="26"] {
+  left: 26px; }
+
+#track-wrapper .car[data-distance="27"] {
+  left: 27px; }
+
+#track-wrapper .car[data-distance="28"] {
+  left: 28px; }
+
+#track-wrapper .car[data-distance="29"] {
+  left: 29px; }
+
+#track-wrapper .car[data-distance="30"] {
+  left: 30px; }
+
+#track-wrapper .car[data-distance="31"] {
+  left: 31px; }
+
+#track-wrapper .car[data-distance="32"] {
+  left: 32px; }
+
+#track-wrapper .car[data-distance="33"] {
+  left: 33px; }
+
+#track-wrapper .car[data-distance="34"] {
+  left: 34px; }
+
+#track-wrapper .car[data-distance="35"] {
+  left: 35px; }
+
+#track-wrapper .car[data-distance="36"] {
+  left: 36px; }
+
+#track-wrapper .car[data-distance="37"] {
+  left: 37px; }
+
+#track-wrapper .car[data-distance="38"] {
+  left: 38px; }
+
+#track-wrapper .car[data-distance="39"] {
+  left: 39px; }
+
+#track-wrapper .car[data-distance="40"] {
+  left: 40px; }
+
+#track-wrapper .car[data-distance="41"] {
+  left: 41px; }
+
+#track-wrapper .car[data-distance="42"] {
+  left: 42px; }
+
+#track-wrapper .car[data-distance="43"] {
+  left: 43px; }
+
+#track-wrapper .car[data-distance="44"] {
+  left: 44px; }
+
+#track-wrapper .car[data-distance="45"] {
+  left: 45px; }
+
+#track-wrapper .car[data-distance="46"] {
+  left: 46px; }
+
+#track-wrapper .car[data-distance="47"] {
+  left: 47px; }
+
+#track-wrapper .car[data-distance="48"] {
+  left: 48px; }
+
+#track-wrapper .car[data-distance="49"] {
+  left: 49px; }
+
+#track-wrapper .car[data-distance="50"] {
+  left: 50px; }
+
+#track-wrapper .car[data-distance="51"] {
+  left: 51px; }
+
+#track-wrapper .car[data-distance="52"] {
+  left: 52px; }
+
+#track-wrapper .car[data-distance="53"] {
+  left: 53px; }
+
+#track-wrapper .car[data-distance="54"] {
+  left: 54px; }
+
+#track-wrapper .car[data-distance="55"] {
+  left: 55px; }
+
+#track-wrapper .car[data-distance="56"] {
+  left: 56px; }
+
+#track-wrapper .car[data-distance="57"] {
+  left: 57px; }
+
+#track-wrapper .car[data-distance="58"] {
+  left: 58px; }
+
+#track-wrapper .car[data-distance="59"] {
+  left: 59px; }
+
+#track-wrapper .car[data-distance="60"] {
+  left: 60px; }
+
+#track-wrapper .car[data-distance="61"] {
+  left: 61px; }
+
+#track-wrapper .car[data-distance="62"] {
+  left: 62px; }
+
+#track-wrapper .car[data-distance="63"] {
+  left: 63px; }
+
+#track-wrapper .car[data-distance="64"] {
+  left: 64px; }
+
+#track-wrapper .car[data-distance="65"] {
+  left: 65px; }
+
+#track-wrapper .car[data-distance="66"] {
+  left: 66px; }
+
+#track-wrapper .car[data-distance="67"] {
+  left: 67px; }
+
+#track-wrapper .car[data-distance="68"] {
+  left: 68px; }
+
+#track-wrapper .car[data-distance="69"] {
+  left: 69px; }
+
+#track-wrapper .car[data-distance="70"] {
+  left: 70px; }
+
+#track-wrapper .car[data-distance="71"] {
+  left: 71px; }
+
+#track-wrapper .car[data-distance="72"] {
+  left: 72px; }
+
+#track-wrapper .car[data-distance="73"] {
+  left: 73px; }
+
+#track-wrapper .car[data-distance="74"] {
+  left: 74px; }
+
+#track-wrapper .car[data-distance="75"] {
+  left: 75px; }
+
+#track-wrapper .car[data-distance="76"] {
+  left: 76px; }
+
+#track-wrapper .car[data-distance="77"] {
+  left: 77px; }
+
+#track-wrapper .car[data-distance="78"] {
+  left: 78px; }
+
+#track-wrapper .car[data-distance="79"] {
+  left: 79px; }
+
+#track-wrapper .car[data-distance="80"] {
+  left: 80px; }
+
+#track-wrapper .car[data-distance="81"] {
+  left: 81px; }
+
+#track-wrapper .car[data-distance="82"] {
+  left: 82px; }
+
+#track-wrapper .car[data-distance="83"] {
+  left: 83px; }
+
+#track-wrapper .car[data-distance="84"] {
+  left: 84px; }
+
+#track-wrapper .car[data-distance="85"] {
+  left: 85px; }
+
+#track-wrapper .car[data-distance="86"] {
+  left: 86px; }
+
+#track-wrapper .car[data-distance="87"] {
+  left: 87px; }
+
+#track-wrapper .car[data-distance="88"] {
+  left: 88px; }
+
+#track-wrapper .car[data-distance="89"] {
+  left: 89px; }
+
+#track-wrapper .car[data-distance="90"] {
+  left: 90px; }
+
+#track-wrapper .car[data-distance="91"] {
+  left: 91px; }
+
+#track-wrapper .car[data-distance="92"] {
+  left: 92px; }
+
+#track-wrapper .car[data-distance="93"] {
+  left: 93px; }
+
+#track-wrapper .car[data-distance="94"] {
+  left: 94px; }
+
+#track-wrapper .car[data-distance="95"] {
+  left: 95px; }
+
+#track-wrapper .car[data-distance="96"] {
+  left: 96px; }
+
+#track-wrapper .car[data-distance="97"] {
+  left: 97px; }
+
+#track-wrapper .car[data-distance="98"] {
+  left: 98px; }
+
+#track-wrapper .car[data-distance="99"] {
+  left: 99px; }
+
+#track-wrapper .car[data-distance="100"] {
+  left: 100px; }
+
+#track-wrapper .car[data-distance="101"] {
+  left: 101px; }
+
+#track-wrapper .car[data-distance="102"] {
+  left: 102px; }
+
+#track-wrapper .car[data-distance="103"] {
+  left: 103px; }
+
+#track-wrapper .car[data-distance="104"] {
+  left: 104px; }
+
+#track-wrapper .car[data-distance="105"] {
+  left: 105px; }
+
+#track-wrapper .car[data-distance="106"] {
+  left: 106px; }
+
+#track-wrapper .car[data-distance="107"] {
+  left: 107px; }
+
+#track-wrapper .car[data-distance="108"] {
+  left: 108px; }
+
+#track-wrapper .car[data-distance="109"] {
+  left: 109px; }
+
+#track-wrapper .car[data-distance="110"] {
+  left: 110px; }
+
+#track-wrapper .car[data-distance="111"] {
+  left: 111px; }
+
+#track-wrapper .car[data-distance="112"] {
+  left: 112px; }
+
+#track-wrapper .car[data-distance="113"] {
+  left: 113px; }
+
+#track-wrapper .car[data-distance="114"] {
+  left: 114px; }
+
+#track-wrapper .car[data-distance="115"] {
+  left: 115px; }
+
+#track-wrapper .car[data-distance="116"] {
+  left: 116px; }
+
+#track-wrapper .car[data-distance="117"] {
+  left: 117px; }
+
+#track-wrapper .car[data-distance="118"] {
+  left: 118px; }
+
+#track-wrapper .car[data-distance="119"] {
+  left: 119px; }
+
+#track-wrapper .car[data-distance="120"] {
+  left: 120px; }
+
+#track-wrapper .car[data-distance="121"] {
+  left: 121px; }
+
+#track-wrapper .car[data-distance="122"] {
+  left: 122px; }
+
+#track-wrapper .car[data-distance="123"] {
+  left: 123px; }
+
+#track-wrapper .car[data-distance="124"] {
+  left: 124px; }
+
+#track-wrapper .car[data-distance="125"] {
+  left: 125px; }
+
+#track-wrapper .car[data-distance="126"] {
+  left: 126px; }
+
+#track-wrapper .car[data-distance="127"] {
+  left: 127px; }
+
+#track-wrapper .car[data-distance="128"] {
+  left: 128px; }
+
+#track-wrapper .car[data-distance="129"] {
+  left: 129px; }
+
+#track-wrapper .car[data-distance="130"] {
+  left: 130px; }
+
+#track-wrapper .car[data-distance="131"] {
+  left: 131px; }
+
+#track-wrapper .car[data-distance="132"] {
+  left: 132px; }
+
+#track-wrapper .car[data-distance="133"] {
+  left: 133px; }
+
+#track-wrapper .car[data-distance="134"] {
+  left: 134px; }
+
+#track-wrapper .car[data-distance="135"] {
+  left: 135px; }
+
+#track-wrapper .car[data-distance="136"] {
+  left: 136px; }
+
+#track-wrapper .car[data-distance="137"] {
+  left: 137px; }
+
+#track-wrapper .car[data-distance="138"] {
+  left: 138px; }
+
+#track-wrapper .car[data-distance="139"] {
+  left: 139px; }
+
+#track-wrapper .car[data-distance="140"] {
+  left: 140px; }
+
+#track-wrapper .car[data-distance="141"] {
+  left: 141px; }
+
+#track-wrapper .car[data-distance="142"] {
+  left: 142px; }
+
+#track-wrapper .car[data-distance="143"] {
+  left: 143px; }
+
+#track-wrapper .car[data-distance="144"] {
+  left: 144px; }
+
+#track-wrapper .car[data-distance="145"] {
+  left: 145px; }
+
+#track-wrapper .car[data-distance="146"] {
+  left: 146px; }
+
+#track-wrapper .car[data-distance="147"] {
+  left: 147px; }
+
+#track-wrapper .car[data-distance="148"] {
+  left: 148px; }
+
+#track-wrapper .car[data-distance="149"] {
+  left: 149px; }
+
+#track-wrapper .car[data-distance="150"] {
+  left: 150px; }
+
+#track-wrapper .car[data-distance="151"] {
+  left: 151px; }
+
+#track-wrapper .car[data-distance="152"] {
+  left: 152px; }
+
+#track-wrapper .car[data-distance="153"] {
+  left: 153px; }
+
+#track-wrapper .car[data-distance="154"] {
+  left: 154px; }
+
+#track-wrapper .car[data-distance="155"] {
+  left: 155px; }
+
+#track-wrapper .car[data-distance="156"] {
+  left: 156px; }
+
+#track-wrapper .car[data-distance="157"] {
+  left: 157px; }
+
+#track-wrapper .car[data-distance="158"] {
+  left: 158px; }
+
+#track-wrapper .car[data-distance="159"] {
+  left: 159px; }
+
+#track-wrapper .car[data-distance="160"] {
+  left: 160px; }
+
+#track-wrapper .car[data-distance="161"] {
+  left: 161px; }
+
+#track-wrapper .car[data-distance="162"] {
+  left: 162px; }
+
+#track-wrapper .car[data-distance="163"] {
+  left: 163px; }
+
+#track-wrapper .car[data-distance="164"] {
+  left: 164px; }
+
+#track-wrapper .car[data-distance="165"] {
+  left: 165px; }
+
+#track-wrapper .car[data-distance="166"] {
+  left: 166px; }
+
+#track-wrapper .car[data-distance="167"] {
+  left: 167px; }
+
+#track-wrapper .car[data-distance="168"] {
+  left: 168px; }
+
+#track-wrapper .car[data-distance="169"] {
+  left: 169px; }
+
+#track-wrapper .car[data-distance="170"] {
+  left: 170px; }
+
+#track-wrapper .car[data-distance="171"] {
+  left: 171px; }
+
+#track-wrapper .car[data-distance="172"] {
+  left: 172px; }
+
+#track-wrapper .car[data-distance="173"] {
+  left: 173px; }
+
+#track-wrapper .car[data-distance="174"] {
+  left: 174px; }
+
+#track-wrapper .car[data-distance="175"] {
+  left: 175px; }
+
+#track-wrapper .car[data-distance="176"] {
+  left: 176px; }
+
+#track-wrapper .car[data-distance="177"] {
+  left: 177px; }
+
+#track-wrapper .car[data-distance="178"] {
+  left: 178px; }
+
+#track-wrapper .car[data-distance="179"] {
+  left: 179px; }
+
+#track-wrapper .car[data-distance="180"] {
+  left: 180px; }
+
+#track-wrapper .car[data-distance="181"] {
+  left: 181px; }
+
+#track-wrapper .car[data-distance="182"] {
+  left: 182px; }
+
+#track-wrapper .car[data-distance="183"] {
+  left: 183px; }
+
+#track-wrapper .car[data-distance="184"] {
+  left: 184px; }
+
+#track-wrapper .car[data-distance="185"] {
+  left: 185px; }
+
+#track-wrapper .car[data-distance="186"] {
+  left: 186px; }
+
+#track-wrapper .car[data-distance="187"] {
+  left: 187px; }
+
+#track-wrapper .car[data-distance="188"] {
+  left: 188px; }
+
+#track-wrapper .car[data-distance="189"] {
+  left: 189px; }
+
+#track-wrapper .car[data-distance="190"] {
+  left: 190px; }
+
+#track-wrapper .car[data-distance="191"] {
+  left: 191px; }
+
+#track-wrapper .car[data-distance="192"] {
+  left: 192px; }
+
+#track-wrapper .car[data-distance="193"] {
+  left: 193px; }
+
+#track-wrapper .car[data-distance="194"] {
+  left: 194px; }
+
+#track-wrapper .car[data-distance="195"] {
+  left: 195px; }
+
+#track-wrapper .car[data-distance="196"] {
+  left: 196px; }
+
+#track-wrapper .car[data-distance="197"] {
+  left: 197px; }
+
+#track-wrapper .car[data-distance="198"] {
+  left: 198px; }
+
+#track-wrapper .car[data-distance="199"] {
+  left: 199px; }
+
+#track-wrapper .car[data-distance="200"] {
+  left: 200px; }
+
+#track-wrapper .car[data-distance="201"] {
+  left: 201px; }
+
+#track-wrapper .car[data-distance="202"] {
+  left: 202px; }
+
+#track-wrapper .car[data-distance="203"] {
+  left: 203px; }
+
+#track-wrapper .car[data-distance="204"] {
+  left: 204px; }
+
+#track-wrapper .car[data-distance="205"] {
+  left: 205px; }
+
+#track-wrapper .car[data-distance="206"] {
+  left: 206px; }
+
+#track-wrapper .car[data-distance="207"] {
+  left: 207px; }
+
+#track-wrapper .car[data-distance="208"] {
+  left: 208px; }
+
+#track-wrapper .car[data-distance="209"] {
+  left: 209px; }
+
+#track-wrapper .car[data-distance="210"] {
+  left: 210px; }
+
+#track-wrapper .car[data-distance="211"] {
+  left: 211px; }
+
+#track-wrapper .car[data-distance="212"] {
+  left: 212px; }
+
+#track-wrapper .car[data-distance="213"] {
+  left: 213px; }
+
+#track-wrapper .car[data-distance="214"] {
+  left: 214px; }
+
+#track-wrapper .car[data-distance="215"] {
+  left: 215px; }
+
+#track-wrapper .car[data-distance="216"] {
+  left: 216px; }
+
+#track-wrapper .car[data-distance="217"] {
+  left: 217px; }
+
+#track-wrapper .car[data-distance="218"] {
+  left: 218px; }
+
+#track-wrapper .car[data-distance="219"] {
+  left: 219px; }
+
+#track-wrapper .car[data-distance="220"] {
+  left: 220px; }
+
+#track-wrapper .car[data-distance="221"] {
+  left: 221px; }
+
+#track-wrapper .car[data-distance="222"] {
+  left: 222px; }
+
+#track-wrapper .car[data-distance="223"] {
+  left: 223px; }
+
+#track-wrapper .car[data-distance="224"] {
+  left: 224px; }
+
+#track-wrapper .car[data-distance="225"] {
+  left: 225px; }
+
+#track-wrapper .car[data-distance="226"] {
+  left: 226px; }
+
+#track-wrapper .car[data-distance="227"] {
+  left: 227px; }
+
+#track-wrapper .car[data-distance="228"] {
+  left: 228px; }
+
+#track-wrapper .car[data-distance="229"] {
+  left: 229px; }
+
+#track-wrapper .car[data-distance="230"] {
+  left: 230px; }
+
+#track-wrapper .car[data-distance="231"] {
+  left: 231px; }
+
+#track-wrapper .car[data-distance="232"] {
+  left: 232px; }
+
+#track-wrapper .car[data-distance="233"] {
+  left: 233px; }
+
+#track-wrapper .car[data-distance="234"] {
+  left: 234px; }
+
+#track-wrapper .car[data-distance="235"] {
+  left: 235px; }
+
+#track-wrapper .car[data-distance="236"] {
+  left: 236px; }
+
+#track-wrapper .car[data-distance="237"] {
+  left: 237px; }
+
+#track-wrapper .car[data-distance="238"] {
+  left: 238px; }
+
+#track-wrapper .car[data-distance="239"] {
+  left: 239px; }
+
+#track-wrapper .car[data-distance="240"] {
+  left: 240px; }
+
+#track-wrapper .car[data-distance="241"] {
+  left: 241px; }
+
+#track-wrapper .car[data-distance="242"] {
+  left: 242px; }
+
+#track-wrapper .car[data-distance="243"] {
+  left: 243px; }
+
+#track-wrapper .car[data-distance="244"] {
+  left: 244px; }
+
+#track-wrapper .car[data-distance="245"] {
+  left: 245px; }
+
+#track-wrapper .car[data-distance="246"] {
+  left: 246px; }
+
+#track-wrapper .car[data-distance="247"] {
+  left: 247px; }
+
+#track-wrapper .car[data-distance="248"] {
+  left: 248px; }
+
+#track-wrapper .car[data-distance="249"] {
+  left: 249px; }
+
+#track-wrapper .car[data-distance="250"] {
+  left: 250px; }
+
+#track-wrapper .car[data-distance="251"] {
+  left: 251px; }
+
+#track-wrapper .car[data-distance="252"] {
+  left: 252px; }
+
+#track-wrapper .car[data-distance="253"] {
+  left: 253px; }
+
+#track-wrapper .car[data-distance="254"] {
+  left: 254px; }
+
+#track-wrapper .car[data-distance="255"] {
+  left: 255px; }
+
+#track-wrapper .car[data-distance="256"] {
+  left: 256px; }
+
+#track-wrapper .car[data-distance="257"] {
+  left: 257px; }
+
+#track-wrapper .car[data-distance="258"] {
+  left: 258px; }
+
+#track-wrapper .car[data-distance="259"] {
+  left: 259px; }
+
+#track-wrapper .car[data-distance="260"] {
+  left: 260px; }
+
+#track-wrapper .car[data-distance="261"] {
+  left: 261px; }
+
+#track-wrapper .car[data-distance="262"] {
+  left: 262px; }
+
+#track-wrapper .car[data-distance="263"] {
+  left: 263px; }
+
+#track-wrapper .car[data-distance="264"] {
+  left: 264px; }
+
+#track-wrapper .car[data-distance="265"] {
+  left: 265px; }
+
+#track-wrapper .car[data-distance="266"] {
+  left: 266px; }
+
+#track-wrapper .car[data-distance="267"] {
+  left: 267px; }
+
+#track-wrapper .car[data-distance="268"] {
+  left: 268px; }
+
+#track-wrapper .car[data-distance="269"] {
+  left: 269px; }
+
+#track-wrapper .car[data-distance="270"] {
+  left: 270px; }
+
+#track-wrapper .car[data-distance="271"] {
+  left: 271px; }
+
+#track-wrapper .car[data-distance="272"] {
+  left: 272px; }
+
+#track-wrapper .car[data-distance="273"] {
+  left: 273px; }
+
+#track-wrapper .car[data-distance="274"] {
+  left: 274px; }
+
+#track-wrapper .car[data-distance="275"] {
+  left: 275px; }
+
+#track-wrapper .car[data-distance="276"] {
+  left: 276px; }
+
+#track-wrapper .car[data-distance="277"] {
+  left: 277px; }
+
+#track-wrapper .car[data-distance="278"] {
+  left: 278px; }
+
+#track-wrapper .car[data-distance="279"] {
+  left: 279px; }
+
+#track-wrapper .car[data-distance="280"] {
+  left: 280px; }
+
+#track-wrapper .car[data-distance="281"] {
+  left: 281px; }
+
+#track-wrapper .car[data-distance="282"] {
+  left: 282px; }
+
+#track-wrapper .car[data-distance="283"] {
+  left: 283px; }
+
+#track-wrapper .car[data-distance="284"] {
+  left: 284px; }
+
+#track-wrapper .car[data-distance="285"] {
+  left: 285px; }
+
+#track-wrapper .car[data-distance="286"] {
+  left: 286px; }
+
+#track-wrapper .car[data-distance="287"] {
+  left: 287px; }
+
+#track-wrapper .car[data-distance="288"] {
+  left: 288px; }
+
+#track-wrapper .car[data-distance="289"] {
+  left: 289px; }
+
+#track-wrapper .car[data-distance="290"] {
+  left: 290px; }
+
+#track-wrapper .car[data-distance="291"] {
+  left: 291px; }
+
+#track-wrapper .car[data-distance="292"] {
+  left: 292px; }
+
+#track-wrapper .car[data-distance="293"] {
+  left: 293px; }
+
+#track-wrapper .car[data-distance="294"] {
+  left: 294px; }
+
+#track-wrapper .car[data-distance="295"] {
+  left: 295px; }
+
+#track-wrapper .car[data-distance="296"] {
+  left: 296px; }
+
+#track-wrapper .car[data-distance="297"] {
+  left: 297px; }
+
+#track-wrapper .car[data-distance="298"] {
+  left: 298px; }
+
+#track-wrapper .car[data-distance="299"] {
+  left: 299px; }
+
+#track-wrapper .car[data-distance="300"] {
+  left: 300px; }
+
+#track-wrapper .car[data-distance="301"] {
+  left: 301px; }
+
+#track-wrapper .car[data-distance="302"] {
+  left: 302px; }
+
+#track-wrapper .car[data-distance="303"] {
+  left: 303px; }
+
+#track-wrapper .car[data-distance="304"] {
+  left: 304px; }
+
+#track-wrapper .car[data-distance="305"] {
+  left: 305px; }
+
+#track-wrapper .car[data-distance="306"] {
+  left: 306px; }
+
+#track-wrapper .car[data-distance="307"] {
+  left: 307px; }
+
+#track-wrapper .car[data-distance="308"] {
+  left: 308px; }
+
+#track-wrapper .car[data-distance="309"] {
+  left: 309px; }
+
+#track-wrapper .car[data-distance="310"] {
+  left: 310px; }
+
+#track-wrapper .car[data-distance="311"] {
+  left: 311px; }
+
+#track-wrapper .car[data-distance="312"] {
+  left: 312px; }
+
+#track-wrapper .car[data-distance="313"] {
+  left: 313px; }
+
+#track-wrapper .car[data-distance="314"] {
+  left: 314px; }
+
+#track-wrapper .car[data-distance="315"] {
+  left: 315px; }
+
+#track-wrapper .car[data-distance="316"] {
+  left: 316px; }
+
+#track-wrapper .car[data-distance="317"] {
+  left: 317px; }
+
+#track-wrapper .car[data-distance="318"] {
+  left: 318px; }
+
+#track-wrapper .car[data-distance="319"] {
+  left: 319px; }
+
+#track-wrapper .car[data-distance="320"] {
+  left: 320px; }
+
+#track-wrapper .car[data-distance="321"] {
+  left: 321px; }
+
+#track-wrapper .car[data-distance="322"] {
+  left: 322px; }
+
+#track-wrapper .car[data-distance="323"] {
+  left: 323px; }
+
+#track-wrapper .car[data-distance="324"] {
+  left: 324px; }
+
+#track-wrapper .car[data-distance="325"] {
+  left: 325px; }
+
+#track-wrapper .car[data-distance="326"] {
+  left: 326px; }
+
+#track-wrapper .car[data-distance="327"] {
+  left: 327px; }
+
+#track-wrapper .car[data-distance="328"] {
+  left: 328px; }
+
+#track-wrapper .car[data-distance="329"] {
+  left: 329px; }
+
+#track-wrapper .car[data-distance="330"] {
+  left: 330px; }
+
+#track-wrapper .car[data-distance="331"] {
+  left: 331px; }
+
+#track-wrapper .car[data-distance="332"] {
+  left: 332px; }
+
+#track-wrapper .car[data-distance="333"] {
+  left: 333px; }
+
+#track-wrapper .car[data-distance="334"] {
+  left: 334px; }
+
+#track-wrapper .car[data-distance="335"] {
+  left: 335px; }
+
+#track-wrapper .car[data-distance="336"] {
+  left: 336px; }
+
+#track-wrapper .car[data-distance="337"] {
+  left: 337px; }
+
+#track-wrapper .car[data-distance="338"] {
+  left: 338px; }
+
+#track-wrapper .car[data-distance="339"] {
+  left: 339px; }
+
+#track-wrapper .car[data-distance="340"] {
+  left: 340px; }
+
+#track-wrapper .car[data-distance="341"] {
+  left: 341px; }
+
+#track-wrapper .car[data-distance="342"] {
+  left: 342px; }
+
+#track-wrapper .car[data-distance="343"] {
+  left: 343px; }
+
+#track-wrapper .car[data-distance="344"] {
+  left: 344px; }
+
+#track-wrapper .car[data-distance="345"] {
+  left: 345px; }
+
+#track-wrapper .car[data-distance="346"] {
+  left: 346px; }
+
+#track-wrapper .car[data-distance="347"] {
+  left: 347px; }
+
+#track-wrapper .car[data-distance="348"] {
+  left: 348px; }
+
+#track-wrapper .car[data-distance="349"] {
+  left: 349px; }
+
+#track-wrapper .car[data-distance="350"] {
+  left: 350px; }
+
+#track-wrapper .car[data-distance="351"] {
+  left: 351px; }
+
+#track-wrapper .car[data-distance="352"] {
+  left: 352px; }
+
+#track-wrapper .car[data-distance="353"] {
+  left: 353px; }
+
+#track-wrapper .car[data-distance="354"] {
+  left: 354px; }
+
+#track-wrapper .car[data-distance="355"] {
+  left: 355px; }
+
+#track-wrapper .car[data-distance="356"] {
+  left: 356px; }
+
+#track-wrapper .car[data-distance="357"] {
+  left: 357px; }
+
+#track-wrapper .car[data-distance="358"] {
+  left: 358px; }
+
+#track-wrapper .car[data-distance="359"] {
+  left: 359px; }
+
+#track-wrapper .car[data-distance="360"] {
+  left: 360px; }
+
+#track-wrapper .car[data-distance="361"] {
+  left: 361px; }
+
+#track-wrapper .car[data-distance="362"] {
+  left: 362px; }
+
+#track-wrapper .car[data-distance="363"] {
+  left: 363px; }
+
+#track-wrapper .car[data-distance="364"] {
+  left: 364px; }
+
+#track-wrapper .car[data-distance="365"] {
+  left: 365px; }
+
+#track-wrapper .car[data-distance="366"] {
+  left: 366px; }
+
+#track-wrapper .car[data-distance="367"] {
+  left: 367px; }
+
+#track-wrapper .car[data-distance="368"] {
+  left: 368px; }
+
+#track-wrapper .car[data-distance="369"] {
+  left: 369px; }
+
+#track-wrapper .car[data-distance="370"] {
+  left: 370px; }
+
+#track-wrapper .car[data-distance="371"] {
+  left: 371px; }
+
+#track-wrapper .car[data-distance="372"] {
+  left: 372px; }
+
+#track-wrapper .car[data-distance="373"] {
+  left: 373px; }
+
+#track-wrapper .car[data-distance="374"] {
+  left: 374px; }
+
+#track-wrapper .car[data-distance="375"] {
+  left: 375px; }
+
+#track-wrapper .car[data-distance="376"] {
+  left: 376px; }
+
+#track-wrapper .car[data-distance="377"] {
+  left: 377px; }
+
+#track-wrapper .car[data-distance="378"] {
+  left: 378px; }
+
+#track-wrapper .car[data-distance="379"] {
+  left: 379px; }
+
+#track-wrapper .car[data-distance="380"] {
+  left: 380px; }
+
+#track-wrapper .car[data-distance="381"] {
+  left: 381px; }
+
+#track-wrapper .car[data-distance="382"] {
+  left: 382px; }
+
+#track-wrapper .car[data-distance="383"] {
+  left: 383px; }
+
+#track-wrapper .car[data-distance="384"] {
+  left: 384px; }
+
+#track-wrapper .car[data-distance="385"] {
+  left: 385px; }
+
+#track-wrapper .car[data-distance="386"] {
+  left: 386px; }
+
+#track-wrapper .car[data-distance="387"] {
+  left: 387px; }
+
+#track-wrapper .car[data-distance="388"] {
+  left: 388px; }
+
+#track-wrapper .car[data-distance="389"] {
+  left: 389px; }
+
+#track-wrapper .car[data-distance="390"] {
+  left: 390px; }
+
+#track-wrapper .car[data-distance="391"] {
+  left: 391px; }
+
+#track-wrapper .car[data-distance="392"] {
+  left: 392px; }
+
+#track-wrapper .car[data-distance="393"] {
+  left: 393px; }
+
+#track-wrapper .car[data-distance="394"] {
+  left: 394px; }
+
+#track-wrapper .car[data-distance="395"] {
+  left: 395px; }
+
+#track-wrapper .car[data-distance="396"] {
+  left: 396px; }
+
+#track-wrapper .car[data-distance="397"] {
+  left: 397px; }
+
+#track-wrapper .car[data-distance="398"] {
+  left: 398px; }
+
+#track-wrapper .car[data-distance="399"] {
+  left: 399px; }
+
+#track-wrapper .car[data-distance="400"] {
+  left: 400px; }
+
+#track-wrapper .car[data-distance="401"] {
+  left: 401px; }
+
+#track-wrapper .car[data-distance="402"] {
+  left: 402px; }
+
+#track-wrapper .car[data-distance="403"] {
+  left: 403px; }
+
+#track-wrapper .car[data-distance="404"] {
+  left: 404px; }
+
+#track-wrapper .car[data-distance="405"] {
+  left: 405px; }
+
+#track-wrapper .car[data-distance="406"] {
+  left: 406px; }
+
+#track-wrapper .car[data-distance="407"] {
+  left: 407px; }
+
+#track-wrapper .car[data-distance="408"] {
+  left: 408px; }
+
+#track-wrapper .car[data-distance="409"] {
+  left: 409px; }
+
+#track-wrapper .car[data-distance="410"] {
+  left: 410px; }
+
+#track-wrapper .car[data-distance="411"] {
+  left: 411px; }
+
+#track-wrapper .car[data-distance="412"] {
+  left: 412px; }
+
+#track-wrapper .car[data-distance="413"] {
+  left: 413px; }
+
+#track-wrapper .car[data-distance="414"] {
+  left: 414px; }
+
+#track-wrapper .car[data-distance="415"] {
+  left: 415px; }
+
+#track-wrapper .car[data-distance="416"] {
+  left: 416px; }
+
+#track-wrapper .car[data-distance="417"] {
+  left: 417px; }
+
+#track-wrapper .car[data-distance="418"] {
+  left: 418px; }
+
+#track-wrapper .car[data-distance="419"] {
+  left: 419px; }
+
+#track-wrapper .car[data-distance="420"] {
+  left: 420px; }
+
+#track-wrapper .car[data-distance="421"] {
+  left: 421px; }
+
+#track-wrapper .car[data-distance="422"] {
+  left: 422px; }
+
+#track-wrapper .car[data-distance="423"] {
+  left: 423px; }
+
+#track-wrapper .car[data-distance="424"] {
+  left: 424px; }
+
+#track-wrapper .car[data-distance="425"] {
+  left: 425px; }
+
+#track-wrapper .car[data-distance="426"] {
+  left: 426px; }
+
+#track-wrapper .car[data-distance="427"] {
+  left: 427px; }
+
+#track-wrapper .car[data-distance="428"] {
+  left: 428px; }
+
+#track-wrapper .car[data-distance="429"] {
+  left: 429px; }
+
+#track-wrapper .car[data-distance="430"] {
+  left: 430px; }
+
+#track-wrapper .car[data-distance="431"] {
+  left: 431px; }
+
+#track-wrapper .car[data-distance="432"] {
+  left: 432px; }
+
+#track-wrapper .car[data-distance="433"] {
+  left: 433px; }
+
+#track-wrapper .car[data-distance="434"] {
+  left: 434px; }
+
+#track-wrapper .car[data-distance="435"] {
+  left: 435px; }
+
+#track-wrapper .car[data-distance="436"] {
+  left: 436px; }
+
+#track-wrapper .car[data-distance="437"] {
+  left: 437px; }
+
+#track-wrapper .car[data-distance="438"] {
+  left: 438px; }
+
+#track-wrapper .car[data-distance="439"] {
+  left: 439px; }
+
+#track-wrapper .car[data-distance="440"] {
+  left: 440px; }
+
+#track-wrapper .car[data-distance="441"] {
+  left: 441px; }
+
+#track-wrapper .car[data-distance="442"] {
+  left: 442px; }
+
+#track-wrapper .car[data-distance="443"] {
+  left: 443px; }
+
+#track-wrapper .car[data-distance="444"] {
+  left: 444px; }
+
+#track-wrapper .car[data-distance="445"] {
+  left: 445px; }
+
+#track-wrapper .car[data-distance="446"] {
+  left: 446px; }
+
+#track-wrapper .car[data-distance="447"] {
+  left: 447px; }
+
+#track-wrapper .car[data-distance="448"] {
+  left: 448px; }
+
+#track-wrapper .car[data-distance="449"] {
+  left: 449px; }
+
+#track-wrapper .car[data-distance="450"] {
+  left: 450px; }
+
+#track-wrapper .car[data-distance="451"] {
+  left: 451px; }
+
+#track-wrapper .car[data-distance="452"] {
+  left: 452px; }
+
+#track-wrapper .car[data-distance="453"] {
+  left: 453px; }
+
+#track-wrapper .car[data-distance="454"] {
+  left: 454px; }
+
+#track-wrapper .car[data-distance="455"] {
+  left: 455px; }
+
+#track-wrapper .car[data-distance="456"] {
+  left: 456px; }
+
+#track-wrapper .car[data-distance="457"] {
+  left: 457px; }
+
+#track-wrapper .car[data-distance="458"] {
+  left: 458px; }
+
+#track-wrapper .car[data-distance="459"] {
+  left: 459px; }
+
+#track-wrapper .car[data-distance="460"] {
+  left: 460px; }
+
+#track-wrapper .car[data-distance="461"] {
+  left: 461px; }
+
+#track-wrapper .car[data-distance="462"] {
+  left: 462px; }
+
+#track-wrapper .car[data-distance="463"] {
+  left: 463px; }
+
+#track-wrapper .car[data-distance="464"] {
+  left: 464px; }
+
+#track-wrapper .car[data-distance="465"] {
+  left: 465px; }
+
+#track-wrapper .car[data-distance="466"] {
+  left: 466px; }
+
+#track-wrapper .car[data-distance="467"] {
+  left: 467px; }
+
+#track-wrapper .car[data-distance="468"] {
+  left: 468px; }
+
+#track-wrapper .car[data-distance="469"] {
+  left: 469px; }
+
+#track-wrapper .car[data-distance="470"] {
+  left: 470px; }
+
+#track-wrapper .car[data-distance="471"] {
+  left: 471px; }
+
+#track-wrapper .car[data-distance="472"] {
+  left: 472px; }
+
+#track-wrapper .car[data-distance="473"] {
+  left: 473px; }
+
+#track-wrapper .car[data-distance="474"] {
+  left: 474px; }
+
+#track-wrapper .car[data-distance="475"] {
+  left: 475px; }
+
+#track-wrapper .car[data-distance="476"] {
+  left: 476px; }
+
+#track-wrapper .car[data-distance="477"] {
+  left: 477px; }
+
+#track-wrapper .car[data-distance="478"] {
+  left: 478px; }
+
+#track-wrapper .car[data-distance="479"] {
+  left: 479px; }
+
+#track-wrapper .car[data-distance="480"] {
+  left: 480px; }
+
+#track-wrapper .car[data-distance="481"] {
+  left: 481px; }
+
+#track-wrapper .car[data-distance="482"] {
+  left: 482px; }
+
+#track-wrapper .car[data-distance="483"] {
+  left: 483px; }
+
+#track-wrapper .car[data-distance="484"] {
+  left: 484px; }
+
+#track-wrapper .car[data-distance="485"] {
+  left: 485px; }
+
+#track-wrapper .car[data-distance="486"] {
+  left: 486px; }
+
+#track-wrapper .car[data-distance="487"] {
+  left: 487px; }
+
+#track-wrapper .car[data-distance="488"] {
+  left: 488px; }
+
+#track-wrapper .car[data-distance="489"] {
+  left: 489px; }
+
+#track-wrapper .car[data-distance="490"] {
+  left: 490px; }
+
+#track-wrapper .car[data-distance="491"] {
+  left: 491px; }
+
+#track-wrapper .car[data-distance="492"] {
+  left: 492px; }
+
+#track-wrapper .car[data-distance="493"] {
+  left: 493px; }
+
+#track-wrapper .car[data-distance="494"] {
+  left: 494px; }
+
+#track-wrapper .car[data-distance="495"] {
+  left: 495px; }
+
+#track-wrapper .car[data-distance="496"] {
+  left: 496px; }
+
+#track-wrapper .car[data-distance="497"] {
+  left: 497px; }
+
+#track-wrapper .car[data-distance="498"] {
+  left: 498px; }
+
+#track-wrapper .car[data-distance="499"] {
+  left: 499px; }
+
+#track-wrapper .car[data-distance="500"] {
+  left: 500px; }
+
+#track-wrapper .car[data-distance="501"] {
+  left: 501px; }
+
+#track-wrapper .car[data-distance="502"] {
+  left: 502px; }
+
+#track-wrapper .car[data-distance="503"] {
+  left: 503px; }
+
+#track-wrapper .car[data-distance="504"] {
+  left: 504px; }
+
+#track-wrapper .car[data-distance="505"] {
+  left: 505px; }
+
+#track-wrapper .car[data-distance="506"] {
+  left: 506px; }
+
+#track-wrapper .car[data-distance="507"] {
+  left: 507px; }
+
+#track-wrapper .car[data-distance="508"] {
+  left: 508px; }
+
+#track-wrapper .car[data-distance="509"] {
+  left: 509px; }
+
+#track-wrapper .car[data-distance="510"] {
+  left: 510px; }
+
+#track-wrapper .car[data-distance="511"] {
+  left: 511px; }
+
+#track-wrapper .car[data-distance="512"] {
+  left: 512px; }
+
+#track-wrapper .car[data-distance="513"] {
+  left: 513px; }
+
+#track-wrapper .car[data-distance="514"] {
+  left: 514px; }
+
+#track-wrapper .car[data-distance="515"] {
+  left: 515px; }
+
+#track-wrapper .car[data-distance="516"] {
+  left: 516px; }
+
+#track-wrapper .car[data-distance="517"] {
+  left: 517px; }
+
+#track-wrapper .car[data-distance="518"] {
+  left: 518px; }
+
+#track-wrapper .car[data-distance="519"] {
+  left: 519px; }
+
+#track-wrapper .car[data-distance="520"] {
+  left: 520px; }
+
+#track-wrapper .car[data-distance="521"] {
+  left: 521px; }
+
+#track-wrapper .car[data-distance="522"] {
+  left: 522px; }
+
+#track-wrapper .car[data-distance="523"] {
+  left: 523px; }
+
+#track-wrapper .car[data-distance="524"] {
+  left: 524px; }
+
+#track-wrapper .car[data-distance="525"] {
+  left: 525px; }
+
+#track-wrapper .car[data-distance="526"] {
+  left: 526px; }
+
+#track-wrapper .car[data-distance="527"] {
+  left: 527px; }
+
+#track-wrapper .car[data-distance="528"] {
+  left: 528px; }
+
+#track-wrapper .car[data-distance="529"] {
+  left: 529px; }
+
+#track-wrapper .car[data-distance="530"] {
+  left: 530px; }
+
+#track-wrapper .car[data-distance="531"] {
+  left: 531px; }
+
+#track-wrapper .car[data-distance="532"] {
+  left: 532px; }
+
+#track-wrapper .car[data-distance="533"] {
+  left: 533px; }
+
+#track-wrapper .car[data-distance="534"] {
+  left: 534px; }
+
+#track-wrapper .car[data-distance="535"] {
+  left: 535px; }
+
+#track-wrapper .car[data-distance="536"] {
+  left: 536px; }
+
+#track-wrapper .car[data-distance="537"] {
+  left: 537px; }
+
+#track-wrapper .car[data-distance="538"] {
+  left: 538px; }
+
+#track-wrapper .car[data-distance="539"] {
+  left: 539px; }
+
+#track-wrapper .car[data-distance="540"] {
+  left: 540px; }
+
+#track-wrapper .car[data-distance="541"] {
+  left: 541px; }
+
+#track-wrapper .car[data-distance="542"] {
+  left: 542px; }
+
+#track-wrapper .car[data-distance="543"] {
+  left: 543px; }
+
+#track-wrapper .car[data-distance="544"] {
+  left: 544px; }
+
+#track-wrapper .car[data-distance="545"] {
+  left: 545px; }
+
+#track-wrapper .car[data-distance="546"] {
+  left: 546px; }
+
+#track-wrapper .car[data-distance="547"] {
+  left: 547px; }
+
+#track-wrapper .car[data-distance="548"] {
+  left: 548px; }
+
+#track-wrapper .car[data-distance="549"] {
+  left: 549px; }
+
+#track-wrapper .car[data-distance="550"] {
+  left: 550px; }
+
+#track-wrapper .car[data-distance="551"] {
+  left: 551px; }
+
+#track-wrapper .car[data-distance="552"] {
+  left: 552px; }
+
+#track-wrapper .car[data-distance="553"] {
+  left: 553px; }
+
+#track-wrapper .car[data-distance="554"] {
+  left: 554px; }
+
+#track-wrapper .car[data-distance="555"] {
+  left: 555px; }
+
+#track-wrapper .car[data-distance="556"] {
+  left: 556px; }
+
+#track-wrapper .car[data-distance="557"] {
+  left: 557px; }
+
+#track-wrapper .car[data-distance="558"] {
+  left: 558px; }
+
+#track-wrapper .car[data-distance="559"] {
+  left: 559px; }
+
+#track-wrapper .car[data-distance="560"] {
+  left: 560px; }
+
+#track-wrapper .car[data-distance="561"] {
+  left: 561px; }
+
+#track-wrapper .car[data-distance="562"] {
+  left: 562px; }
+
+#track-wrapper .car[data-distance="563"] {
+  left: 563px; }
+
+#track-wrapper .car[data-distance="564"] {
+  left: 564px; }
+
+#track-wrapper .car[data-distance="565"] {
+  left: 565px; }
+
+#track-wrapper .car[data-distance="566"] {
+  left: 566px; }
+
+#track-wrapper .car[data-distance="567"] {
+  left: 567px; }
+
+#track-wrapper .car[data-distance="568"] {
+  left: 568px; }
+
+#track-wrapper .car[data-distance="569"] {
+  left: 569px; }
+
+#track-wrapper .car[data-distance="570"] {
+  left: 570px; }
+
+#track-wrapper .car[data-distance="571"] {
+  left: 571px; }
+
+#track-wrapper .car[data-distance="572"] {
+  left: 572px; }
+
+#track-wrapper .car[data-distance="573"] {
+  left: 573px; }
+
+#track-wrapper .car[data-distance="574"] {
+  left: 574px; }
+
+#track-wrapper .car[data-distance="575"] {
+  left: 575px; }
+
+#track-wrapper .car[data-distance="576"] {
+  left: 576px; }
+
+#track-wrapper .car[data-distance="577"] {
+  left: 577px; }
+
+#track-wrapper .car[data-distance="578"] {
+  left: 578px; }
+
+#track-wrapper .car[data-distance="579"] {
+  left: 579px; }
+
+#track-wrapper .car[data-distance="580"] {
+  left: 580px; }
+
+#track-wrapper .car[data-distance="581"] {
+  left: 581px; }
+
+#track-wrapper .car[data-distance="582"] {
+  left: 582px; }
+
+#track-wrapper .car[data-distance="583"] {
+  left: 583px; }
+
+#track-wrapper .car[data-distance="584"] {
+  left: 584px; }
+
+#track-wrapper .car[data-distance="585"] {
+  left: 585px; }
+
+#track-wrapper .car[data-distance="586"] {
+  left: 586px; }
+
+#track-wrapper .car[data-distance="587"] {
+  left: 587px; }
+
+#track-wrapper .car[data-distance="588"] {
+  left: 588px; }
+
+#track-wrapper .car[data-distance="589"] {
+  left: 589px; }
+
+#track-wrapper .car[data-distance="590"] {
+  left: 590px; }
+
+#track-wrapper .car[data-distance="591"] {
+  left: 591px; }
+
+#track-wrapper .car[data-distance="592"] {
+  left: 592px; }
+
+#track-wrapper .car[data-distance="593"] {
+  left: 593px; }
+
+#track-wrapper .car[data-distance="594"] {
+  left: 594px; }
+
+#track-wrapper .car[data-distance="595"] {
+  left: 595px; }
+
+#track-wrapper .car[data-distance="596"] {
+  left: 596px; }
+
+#track-wrapper .car[data-distance="597"] {
+  left: 597px; }
+
+#track-wrapper .car[data-distance="598"] {
+  left: 598px; }
+
+#track-wrapper .car[data-distance="599"] {
+  left: 599px; }
+
+#track-wrapper .car[data-distance="600"] {
+  left: 600px; }
+
+body, html, .wrapper#main {
+  height: 100%; }
+
+body {
+  font-size: 16px;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Assistant', sans-serif; }
+
+#track-wrapper {
+  margin: 25px auto;
+  position: relative; }
+  #track-wrapper .car {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: #eee;
+    left: 0;
+    transition: all 100ms linear; }
+    #track-wrapper .car#a4 {
+      background: green;
+      top: 0; }
+    #track-wrapper .car#models {
+      background: blue;
+      bottom: 0; }
+
+#track {
+  height: 150px;
+  background: #777;
+  border-top: 1px solid #333;
+  border-bottom: 1px solid #333; }

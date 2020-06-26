@@ -1,0 +1,37 @@
+@import "reset";
+@import "colors";
+@import "fonts";
+
+// @import "facebook";
+@import "track_animation";
+
+
+//Globals
+body, html, .wrapper#main { height: 100%; }
+body {
+    font-size: 16px;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Assistant', sans-serif;
+}
+
+#track-wrapper {
+    margin: 25px auto;
+    position: relative;
+    .car {
+        position: absolute;
+        width: 15px;
+        height: 15px;
+        background: #eee;
+        left: 0;
+        transition: all 100ms linear;
+        &#a4 { background: green; top: 0; }
+        &#models { background: blue; bottom: 0; }
+    }
+}
+
+#track {
+    height: 150px;
+    background: #777;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
