@@ -1,14 +1,22 @@
 
-import { Car, Audi, Engine, Tesla, FormulaOne, Track } from "./racing";
+import { Track } from "./racing";
 
-const engine = new Engine('V8');
-const electricEngine = new Engine('electric');
+import { Audi, Tesla } from "./racing";
 
-//Instances
+import { V8, Electric } from './racing'
+
+const engineAudi = new V8();
+const engineTesla = new Electric();
+
+console.log('Engine:engineAudi', engineAudi);
+console.log('Engine:engineTesla', engineTesla);
+
+// Track Instances
 const daytona500    = new Track()
-const a4            = new Audi("Audi", "A4", engine, "Firestone", daytona500);
-const modelS        = new Tesla("Tesla", "ModelS", electricEngine, "Firestone", daytona500);
 
+// Car Instances
+const a4            = new Audi("Audi", "A4", engineAudi, 3000, "Firestone", daytona500);
+const modelS        = new Tesla("Tesla", "ModelS", engineTesla, 4200, "Firestone", daytona500);
 
 a4.turnOn();
 modelS.turnOn();

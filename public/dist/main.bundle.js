@@ -97,12 +97,17 @@
 
 Object.defineProperty(exports, "__esModule", { value: true });
 var racing_1 = __webpack_require__(/*! ./racing */ "./public/js/racing/index.ts");
-var engine = new racing_1.Engine('V8');
-var electricEngine = new racing_1.Engine('electric');
-//Instances
+var racing_2 = __webpack_require__(/*! ./racing */ "./public/js/racing/index.ts");
+var racing_3 = __webpack_require__(/*! ./racing */ "./public/js/racing/index.ts");
+var engineAudi = new racing_3.V8();
+var engineTesla = new racing_3.Electric();
+console.log('Engine:engineAudi', engineAudi);
+console.log('Engine:engineTesla', engineTesla);
+// Track Instances
 var daytona500 = new racing_1.Track();
-var a4 = new racing_1.Audi("Audi", "A4", engine, "Firestone", daytona500);
-var modelS = new racing_1.Tesla("Tesla", "ModelS", electricEngine, "Firestone", daytona500);
+// Car Instances
+var a4 = new racing_2.Audi("Audi", "A4", engineAudi, 3000, "Firestone", daytona500);
+var modelS = new racing_2.Tesla("Tesla", "ModelS", engineTesla, 4200, "Firestone", daytona500);
 a4.turnOn();
 modelS.turnOn();
 daytona500.loadTrack([a4, modelS]);
@@ -170,10 +175,11 @@ exports.Audi = Audi;
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.Car = void 0;
 var Car = /** @class */ (function () {
-    function Car(type, model, engine, tires, track) {
+    function Car(type, model, engine, weight, tires, track) {
         this.type = type;
         this.model = model;
         this.engine = engine;
+        this.weight = weight;
         this.tires = tires;
         this.track = track;
         this.maxSpeed = 100;
@@ -181,17 +187,36 @@ var Car = /** @class */ (function () {
         this.acceleration = 1;
         this.torque = 1;
         this.currentSpeed = 0;
+        this.carRef = null;
+        this.time = 0;
         this.type = type;
         this.model = model;
         this.engine = engine;
+        this.weight = weight;
         this.tires = tires;
-        var time = this.getMinutesFromMilliseconds(track.raceTime);
-        this.calculateSpeedVariables(time);
         this.setCarRef(this.model.toLocaleLowerCase());
+        // const time = this.getMinutesFromMilliseconds(track.raceTime);
+        var mph = this.findQtrMileMPHxWtHP(this.weight, this.engine.getPower());
+        this.time = this.findQtrMileETxWtHP(mph);
+        // this.calculateSpeedVariables(time);
     }
     Car.prototype.setCarRef = function (selector) {
         // console.log(`setting carRef: ${selector}`);
         this.carRef = document.querySelector("#" + selector);
+    };
+    // pulled from: https://www.tciauto.com/racing-calculators
+    Car.prototype.roundNumber = function (num) {
+        var dec = 3;
+        var result = Math.round(num * Math.pow(10, dec)) / Math.pow(10, dec);
+        return result;
+    };
+    // pulled from: https://www.tciauto.com/racing-calculators
+    Car.prototype.findQtrMileMPHxWtHP = function (weight, hp) {
+        return this.roundNumber(Math.pow(hp / weight, 1 / 3) * 234);
+    };
+    // pulled from: https://www.tciauto.com/racing-calculators
+    Car.prototype.findQtrMileETxWtHP = function (mph) {
+        return this.roundNumber(1353 / mph);
     };
     Car.prototype.calculateSpeedVariables = function (time) {
         switch (this.engine.type) {
@@ -256,7 +281,7 @@ var Car = /** @class */ (function () {
         return ((1000 * minutes) * 10);
     };
     Car.prototype.getCarInfo = function () {
-        console.log("car of type " + this.type + " " + this.model + " with a " + this.engine.type + " engine and " + this.tires + " tires and a max speed of " + this.maxSpeed + ".");
+        console.log("Car of type " + this.type + " " + this.model + " with a " + this.engine.type + " engine and weighs " + this.weight + "lbs can run the quarter mile in: " + this.time + ".");
     };
     Car.prototype.turnOn = function () {
         console.log("turning on the " + this.type);
@@ -282,11 +307,26 @@ exports.Car = Car;
 
 "use strict";
 
+var __extends = (this && this.__extends) || (function () {
+    var extendStatics = function (d, b) {
+        extendStatics = Object.setPrototypeOf ||
+            ({ __proto__: [] } instanceof Array && function (d, b) { d.__proto__ = b; }) ||
+            function (d, b) { for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p]; };
+        return extendStatics(d, b);
+    };
+    return function (d, b) {
+        extendStatics(d, b);
+        function __() { this.constructor = d; }
+        d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+    };
+})();
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.Engine = void 0;
+exports.Electric = exports.V8 = void 0;
+// -----
+// TQ measured in FT/LBS
+// Power measured in HP
 var Engine = /** @class */ (function () {
-    function Engine(type) {
-        this.type = type;
+    function Engine() {
     }
     Engine.prototype.start = function () {
         console.log("the is starting a " + this.type + " engine");
@@ -294,9 +334,40 @@ var Engine = /** @class */ (function () {
     Engine.prototype.stop = function () {
         console.log("turning off the " + this.type + " engine");
     };
+    Engine.prototype.getPower = function () {
+        return this.power;
+    };
+    Engine.prototype.getToqrue = function () {
+        return this.torque;
+    };
     return Engine;
 }());
-exports.Engine = Engine;
+// ------
+var V8 = /** @class */ (function (_super) {
+    __extends(V8, _super);
+    function V8() {
+        var _this = _super.call(this) || this;
+        _this.power = 400;
+        _this.torque = 400;
+        _this.type = 'V8';
+        return _this;
+    }
+    return V8;
+}(Engine));
+exports.V8 = V8;
+// ------
+var Electric = /** @class */ (function (_super) {
+    __extends(Electric, _super);
+    function Electric() {
+        var _this = _super.call(this) || this;
+        _this.power = 400;
+        _this.torque = 500;
+        _this.type = 'Electric';
+        return _this;
+    }
+    return Electric;
+}(Engine));
+exports.Electric = Electric;
 
 
 /***/ }),
@@ -328,9 +399,19 @@ exports.FormulaOne = void 0;
 var car_1 = __webpack_require__(/*! ./car */ "./public/js/racing/cars/car.ts");
 var FormulaOne = /** @class */ (function (_super) {
     __extends(FormulaOne, _super);
-    function FormulaOne() {
-        return _super !== null && _super.apply(this, arguments) || this;
+    function FormulaOne(type, model, engine, tires, track) {
+        var _this = _super.call(this, type, model, engine, tires, track) || this;
+        _this.type = type;
+        _this.model = model;
+        _this.engine = engine;
+        _this.tires = tires;
+        _this.track = track;
+        _this.init();
+        return _this;
     }
+    FormulaOne.prototype.init = function () {
+        this.getCarInfo();
+    };
     return FormulaOne;
 }(car_1.Car));
 exports.FormulaOne = FormulaOne;

@@ -78,7 +78,13 @@ module.exports = {
 					transpileOnly: true
 				}
       },
-      {exclude: ['node_modules'], loader: 'babel', test: /\.jsx?$/},
+      {
+        exclude: [
+          /node_modules/
+        ],
+        loader: 'babel',
+        test: /\.jsx?$/
+      },
     ]
   },
   plugins: [  

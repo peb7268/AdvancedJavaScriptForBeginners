@@ -9,15 +9,17 @@ export class Track {
     public trackWidth: number = 0;
     public trackProgressUnit = 1;       //How many sections to divide the track into. Bigger screen = more sections
 
-    constructor(
-        public dom:any
-    ){
+    constructor (
+        public dom:any ) {
+
         this.init();
     }
 
-    init(){
+    init() {
+
         this.dom = (typeof this.dom !== 'undefined' && this.dom !== null) ? this.dom : document;
-        if(typeof this.dom === "undefined") return;
+
+        if ( typeof this.dom === "undefined") return;
 
         const trackRef:any  = this.dom.querySelector('#track');
         
@@ -26,17 +28,21 @@ export class Track {
     }
 
     setTrackWidth(trackRef:any) {
-        this.trackWidth     = trackRef.scrollWidth;
+
+        this.trackWidth = trackRef.scrollWidth;
     }
 
     //How big your track is / how many seconds the race is
     setTrackProgressUnit() {
+
         // console.log(`trackWidth: `, this.trackWidth);
         this.trackProgressUnit = this.trackWidth / (this.raceTime * 60);  //Converts racetime in minutes to seconds
     }
 
-    loadTrack(cars:Array<Car>){
+    loadTrack(cars:Array<Car>) {
+
         cars.forEach(car => {
+
             this.carRefs.push(car.carRef);
             console.log(`${car.type} is driving onto the track`)
         });
@@ -44,7 +50,8 @@ export class Track {
         this.cars = cars;
     }
 
-    startRace(){
+    startRace() {
+
         console.log(`start your engines!!! Vroom vroom`);
         this.cars.forEach(car => car.race());
 
@@ -52,7 +59,9 @@ export class Track {
         let secondsPassed = 0;
         
         window['track'] = window['setInterval'](() => {
+
             if(minutesPassed < this.raceTime){
+
                 minutesPassed = (secondsPassed + 1) / 60;
                 secondsPassed = secondsPassed + 1;
                 

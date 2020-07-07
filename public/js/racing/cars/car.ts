@@ -1,36 +1,61 @@
 
-import { Engine } from "./engine";
 import { Track } from "../track";
+import { IEngine } from "../cars/engine";
 
 
 export class Car {
-    public maxSpeed         = 100;
-    public horsePower       = 100;
-    public acceleration     = 1;
-    public torque           = 1;
+    public maxSpeed: number     = 100;
+    public horsePower: number   = 100;
+    public acceleration: number = 1;
+    public torque: number       = 1;
     public currentSpeed: number = 0;
-    public carRef:any;
+    public carRef: any          = null;
+    public time: number         = 0;
 
     constructor(
         public type: string,
         public model: string,
-        public engine: Engine,
-        public tires:string,
+        public engine: IEngine,
+        public weight: number,
+        public tires: string,
         public track: Track
     ){
         this.type = type;
         this.model = model;
-        this.engine = engine; 
+        this.engine = engine;
+        this.weight = weight;
         this.tires = tires;
-        
-        const time = this.getMinutesFromMilliseconds(track.raceTime);
-        this.calculateSpeedVariables(time);
+
         this.setCarRef(this.model.toLocaleLowerCase());
+
+        // const time = this.getMinutesFromMilliseconds(track.raceTime);
+        const mph  = this.findQtrMileMPHxWtHP(this.weight, this.engine.getPower());
+
+        this.time = this.findQtrMileETxWtHP(mph);
+
+        // this.calculateSpeedVariables(time);
     }
 
-    setCarRef(selector:string){
+    setCarRef(selector: string){
         // console.log(`setting carRef: ${selector}`);
         this.carRef = document.querySelector(`#${selector}`);
+    }
+
+    // pulled from: https://www.tciauto.com/racing-calculators
+    roundNumber(num: number) {
+        var dec = 3;
+        var result = Math.round( num * Math.pow( 10, dec) ) / Math.pow( 10, dec );
+        return result;
+    }
+
+    // pulled from: https://www.tciauto.com/racing-calculators
+    findQtrMileMPHxWtHP(weight: number, hp: number) {
+        return this.roundNumber( Math.pow( hp / weight, 1/3 ) * 234 );
+    }
+
+    // pulled from: https://www.tciauto.com/racing-calculators
+    findQtrMileETxWtHP(mph: number) {
+        return this.roundNumber( 1353 / mph );
     }
 
     calculateSpeedVariables(time:number){
@@ -50,31 +75,38 @@ export class Car {
         }
     }
 
-    race(){
+    race() {
+
         console.log(`${this.type} is taking off`);
+
         let minutesPassed = 0;
         let secondsPassed = 0;
 
         window['race'] = window['setInterval'](() => {
-            if(minutesPassed < this.track.raceTime){
+
+            if ( minutesPassed < this.track.raceTime ) {
+
                 minutesPassed = (secondsPassed + 1) / 60;
                 secondsPassed = secondsPassed + 1;
                 
                 let v1        = (secondsPassed === 0) ? 1 : secondsPassed + 1;
-                if(v1 >= this.maxSpeed) v1 = this.maxSpeed;
+                if ( v1 >= this.maxSpeed ) v1 = this.maxSpeed;
 
                 let v2        = (secondsPassed === 0) ? 0 : v1 * this.torque;
-                if(v2 >= this.maxSpeed) v2 = this.maxSpeed;
-                
+                if ( v2 >= this.maxSpeed) v2 = this.maxSpeed;
+
                 this.acceleration = this.calculateAcceleration(v2, v1, secondsPassed);
                 this.currentSpeed = (this.currentSpeed < this.maxSpeed) ? this.currentSpeed + this.acceleration : this.maxSpeed;
                 
                 console.log(`the ${this.type} is currently acceleratig by a factor of ${this.acceleration} to a current speed of ${this.currentSpeed}`);
+
             } else {
+
                 console.log('Car: Race is over!!');
                 window['clearInterval'](window['race']);
                 return;
             }
+
         }, 1000);  
     }
 
@@ -102,7 +134,7 @@ export class Car {
     }
 
     getCarInfo() {
-        console.log(`car of type ${this.type} ${this.model} with a ${this.engine.type} engine and ${this.tires} tires and a max speed of ${this.maxSpeed}.`);
+        console.log(`Car of type ${this.type} ${this.model} with a ${this.engine.type} engine and weighs ${this.weight}lbs can run the quarter mile in: ${this.time}.`);
     } 
 
     turnOn(){
