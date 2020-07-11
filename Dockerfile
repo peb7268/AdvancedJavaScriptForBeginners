@@ -3,6 +3,12 @@ FROM ubuntu:18.04
 
 RUN apt update && apt install -y curl sudo vim wget
 
+RUN useradd -m dev-user -s /bin/bash &&\
+    echo "dev-user:dev-user" | chpasswd && adduser dev-user sudo
+RUN echo "dev-user:password" | sudo chpasswd &&\
+    usermod -aG sudo dev-user
+RUN echo "dev-user  ALL=(ALL) NOPASSWD:ALL" | sudo tee /etc/sudoers.d/username
+
 # Add the node source to APT
 RUN curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 
@@ -11,15 +17,5 @@ RUN sudo apt-get install -y gcc g++ make &&\
 
 RUN mkdir -p /var/www/
 
-# Where are we and what's there?
-RUN pwd
-RUN ls -al
-
-# Is our stuff created?
-RUN ls -al /var/www
-
-# Copy in config files
-WORKDIR /var/www
-
-COPY ./config/docker/startup.sh /
+COPY ./startup.sh /startup.sh
 CMD ["/startup.sh"]

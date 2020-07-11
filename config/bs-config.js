@@ -17,7 +17,7 @@ module.exports = {
         "port": 3001
     },
     "files": [
-        "../public/styles/css/style.css"
+        "/var/www/public/styles/css/style.css"
     ],
     "watchEvents": [
         "change",
@@ -31,7 +31,7 @@ module.exports = {
     },
     "server": "public",
     // "proxy": "wc.test",
-    "port": 80,
+    "port": 8080,
     "middleware": false,
     "serveStatic": [
         "dist"
@@ -52,7 +52,7 @@ module.exports = {
     "logFileChanges": true,
     "logSnippet": true,
     "rewriteRules": [],
-    "open": "local",
+    "open": false,
     "browser": "default",
     "cors": true,
     "xip": false,
