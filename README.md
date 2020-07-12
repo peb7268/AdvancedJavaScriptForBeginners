@@ -30,3 +30,9 @@ At the end of the class, we will conclude by having a racing competition. You bu
 8. The Observer Pattern
 9. The Factory Pattern / Module Revealing Pattern
 10. The Command Pattern
+
+
+#### Reference
+- [NPM As A Build Tool](https://www.keithcirkel.co.uk/how-to-use-npm-as-a-build-tool/) 
+- [Lexical Scoping](https://babeljs.io/docs/en/learn#arrows-and-lexical-this)
+- [Nodemon](https://www.npmjs.com/package/nodemon)
