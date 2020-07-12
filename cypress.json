@@ -1,5 +1,5 @@
 {
-    "baseUrl": "http://racingapp.com",
+    "baseUrl": "http://racingapp.com:8080",
     "watchForFileChanges": true,
     "fileServerFolder": "./public",
     "integrationFolder": "tests/cypress/integration",
