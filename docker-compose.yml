@@ -6,20 +6,21 @@ services:
         dockerfile: Dockerfile
     image: node
     ports:
+      - "8080:8080"
       - "80:80"
       - "443:443"
       - "3000:3000"
       - "3001:3001"
     volumes: 
-        # - ~/Desktop/dev/tpl:/var/www
-        - ~/Desktop/dev/tpl/config:/var/www/config
-        - ~/Desktop/dev/tpl/public:/var/www/public
-        - ~/Desktop/dev/tpl/tests:/var/www/tests
-        - ~/Desktop/dev/tpl/cypress.json:/var/www/cypress.json
-        - ~/Desktop/dev/tpl/jest.config.js:/var/www/jest.config.js
-        - ~/Desktop/dev/tpl/package.json:/var/www/package.json
-        - ~/Desktop/dev/tpl/tsconfig.json:/var/www/tsconfig.json
-        - ~/Desktop/dev/tpl/webpack.config.js:/var/www/webpack.config.js
+        - .:/var/www
+        # - ~/Desktop/dev/tpl/config:/var/www/config
+        # - ~/Desktop/dev/tpl/public:/var/www/public
+        # - ~/Desktop/dev/tpl/tests:/var/www/tests
+        # - ~/Desktop/dev/tpl/cypress.json:/var/www/cypress.json
+        # - ~/Desktop/dev/tpl/jest.config.js:/var/www/jest.config.js
+        # - ~/Desktop/dev/tpl/package.json:/var/www/package.json
+        # - ~/Desktop/dev/tpl/tsconfig.json:/var/www/tsconfig.json
+        # - ~/Desktop/dev/tpl/webpack.config.js:/var/www/webpack.config.js
     networks:
       - racing_network     
 networks:

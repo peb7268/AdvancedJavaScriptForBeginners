@@ -13,6 +13,9 @@ A large part of the complexity of learning "professional programming" patterns i
 
 The focus of this course will not be on learning tooling per-se, although we can cover these things in more detail as we go if you would like. Rather, we will be focused on the usage of these tools, why they are good to use, how day to day usage makes for good development workflow.
 
+## Who this class is for:
+- People who want to do development: We'll be focusing on modern tooling and patterns, not setup.
+- Developers who want to learn some more programming patterns and get exposure to a few different paradigms.
 
 ## The Project
 We will be building a racing simulator. We will make a racetrack, cars, engine, ect.. out of object oriented design principles. We will then render those to a track in the browser, and watch the cards race.
