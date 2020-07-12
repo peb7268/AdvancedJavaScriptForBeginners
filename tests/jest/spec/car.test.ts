@@ -27,11 +27,10 @@ describe('Car', () => {
             new Track(document)
         );
 
-        expect(typeof car).toBe('object');
+        expect(typeof car).toBe('objectz');
         expect(car.type).toBe('audi');
         expect(car.model).toBe('A4');
         expect(car.tires).toBe('goodyear');
         expect(typeof car.track).toBe('object');
     });
 });
-
