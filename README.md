@@ -1,5 +1,10 @@
 # Advanced JavaScript For Beginners - Architecture Overview
 
+## Today's Topics
+- [OOP Basics](https://github.com/peb7268/AdvancedJavaScriptForBeginners/blob/feature/day-2-architecture-overview/notes/docs/oop_basics.pdf)  
+- [App Overview Architecture](https://github.com/peb7268/AdvancedJavaScriptForBeginners/blob/feature/day-2-architecture-overview/notes/docs/oop_basics_diagram.pdf)
+
+
 ### Agenda
 1. Day One: [The Build System and Your First Tests](https://github.com/peb7268/AdvancedJavaScriptForBeginners/tree/feature/day-1-the-build-pipeline)  
 2. [Basic system design:](https://github.com/peb7268/AdvancedJavaScriptForBeginners/tree/feature/day-2-architecture-overview) Which classes we'll need, getting started. Imperative Vs Declarative programming, reactive programming.
