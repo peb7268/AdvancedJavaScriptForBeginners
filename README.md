@@ -24,7 +24,7 @@ At the end of the class, we will conclude by having a racing competition. You bu
 
 ### Agenda
 1. Day One: [The Build System and Your First Tests](https://github.com/peb7268/AdvancedJavaScriptForBeginners/tree/feature/day-1-the-build-pipeline)  
-2. Basic system design: Which classes we'll need, getting started. Imperative Vs Declarative programming, reactive programming.
+2. [Basic system design:](https://github.com/peb7268/AdvancedJavaScriptForBeginners/tree/feature/day-2-architecture-overview) Which classes we'll need, getting started. Imperative Vs Declarative programming, reactive programming.
 3. **SOLID** Design Principles: The Single Responsibility principle
 4. **SOLID** Design Principles: The Open Closed principle
 5. **SOLID** Design Principles: Liskov Substitution principle
